@@ -2,35 +2,35 @@ DROP DATABASE furama_resort;
 CREATE DATABASE furama_resort;
 USE furama_resort;
 CREATE TABLE vi_tri(
-id_vi_tri INT NOT NULL PRIMARY KEY,
+id_vi_tri INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ten_vi_tri VARCHAR(45) DEFAULT NULL
 );
 
 CREATE TABLE trinh_do(
-id_trinh_do INT NOT NULL PRIMARY KEY,
+id_trinh_do INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 trinh_do VARCHAR(45) DEFAULT NULL
 );
 
 CREATE TABLE bo_phan(
-id_bo_phan INT NOT NULL PRIMARY KEY,
+id_bo_phan INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ten_bo_phan VARCHAR(45) DEFAULT NULL
 );
 
 CREATE TABLE nhan_vien(
-id_nhan_vien INT NOT NULL PRIMARY KEY,
+id_nhan_vien INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ho_ten VARCHAR(45) DEFAULT NULL,
-ngay_sinh DATE DEFAULT NULL,
-so_cmnd VARCHAR(45)DEFAULT NULL,
-luong VARCHAR(45)DEFAULT NULL,
-sdt VARCHAR(45)DEFAULT NULL,
-email VARCHAR(45)DEFAULT NULL,
-dia_chi VARCHAR(45)DEFAULT NULL,
 id_vi_tri INT DEFAULT NULL,
 CONSTRAINT vi_tri_nhan_vien FOREIGN KEY (id_vi_tri) REFERENCES vi_tri (id_vi_tri),
 id_trinh_do INT DEFAULT NULL,
 CONSTRAINT trinh_do_nhan_vien FOREIGN KEY (id_trinh_do) REFERENCES trinh_do (id_trinh_do),
 id_bo_phan INT DEFAULT NULL,
-CONSTRAINT bo_phan_nhan_vien FOREIGN KEY (id_bo_phan) REFERENCES bo_phan (id_bo_phan)
+CONSTRAINT bo_phan_nhan_vien FOREIGN KEY (id_bo_phan) REFERENCES bo_phan (id_bo_phan),
+ngay_sinh DATE DEFAULT NULL,
+so_cmnd VARCHAR(45)DEFAULT NULL,
+luong VARCHAR(45)DEFAULT NULL,
+sdt VARCHAR(45)DEFAULT NULL,
+email VARCHAR(45)DEFAULT NULL,
+dia_chi VARCHAR(45)DEFAULT NULL
 );
 
 CREATE TABLE loai_khach(
