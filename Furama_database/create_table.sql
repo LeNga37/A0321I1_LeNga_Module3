@@ -26,44 +26,43 @@ CONSTRAINT trinh_do_nhan_vien FOREIGN KEY (id_trinh_do) REFERENCES trinh_do (id_
 id_bo_phan INT DEFAULT NULL,
 CONSTRAINT bo_phan_nhan_vien FOREIGN KEY (id_bo_phan) REFERENCES bo_phan (id_bo_phan),
 ngay_sinh DATE DEFAULT NULL,
-so_cmnd VARCHAR(45)DEFAULT NULL,
+so_cmnd VARCHAR(45)DEFAULT NULL UNIQUE,
 luong VARCHAR(45)DEFAULT NULL,
 sdt VARCHAR(45)DEFAULT NULL,
-email VARCHAR(45)DEFAULT NULL,
+email VARCHAR(45)DEFAULT NULL UNIQUE,
 dia_chi VARCHAR(45)DEFAULT NULL
 );
 
 CREATE TABLE loai_khach(
-id_loai_khach INT NOT NULL PRIMARY KEY,
+id_loai_khach INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ten_loai_khach VARCHAR(45)DEFAULT NULL
 );
 
 CREATE TABLE khach_hang(
-id_khach_hang INT NOT NULL PRIMARY KEY,
+id_khach_hang INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 id_loai_khach INT DEFAULT NULL,
 CONSTRAINT khach_hang FOREIGN KEY (id_loai_khach) REFERENCES loai_khach (id_loai_khach),
 ho_ten VARCHAR(45) DEFAULT NULL,
 ngay_sinh DATE DEFAULT NULL,
-so_cmnd VARCHAR(45)DEFAULT NULL,
-luong VARCHAR(45)DEFAULT NULL,
+so_cmnd VARCHAR(45)DEFAULT NULL UNIQUE,
 sdt VARCHAR(45)DEFAULT NULL,
-email VARCHAR(45)DEFAULT NULL,
+email VARCHAR(45)DEFAULT NULL UNIQUE,
 dia_chi VARCHAR(45)DEFAULT NULL
 );
 
 CREATE TABLE kieu_thue(
-id_kieu_thue INT NOT NULL PRIMARY KEY,
+id_kieu_thue INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ten_kieu_thue VARCHAR(45)DEFAULT NULL,
 gia INT DEFAULT NULL
 );
 
 CREATE TABLE loai_dich_vu(
-id_loai_dich_vu INT NOT NULL PRIMARY KEY,
+id_loai_dich_vu INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ten_loai_dich_vu VARCHAR(45)DEFAULT NULL
 );
 
 CREATE TABLE dich_vu(
-id_dich_vu INT NOT NULL PRIMARY KEY,
+id_dich_vu INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ten_dich_vu VARCHAR(45)DEFAULT NULL,
 dien_tich INT DEFAULT NULL,
 so_tang INT DEFAULT NULL,
@@ -77,7 +76,7 @@ trang_thai VARCHAR(45)DEFAULT NULL
 );
 
 CREATE TABLE hop_dong(
-id_hop_dong INT NOT NULL PRIMARY KEY,
+id_hop_dong INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 id_nhan_vien INT DEFAULT NULL,
 CONSTRAINT nhan_vien_lam_hop_dong FOREIGN KEY (id_nhan_vien) REFERENCES nhan_vien (id_nhan_vien),
 id_khach_hang INT DEFAULT NULL,
@@ -91,7 +90,7 @@ tong_tien INT DEFAULT NULL
 );
 
 CREATE TABLE dich_vu_di_kem(
-id_dich_vu_di_kem INT NOT NULL PRIMARY KEY,
+id_dich_vu_di_kem INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 ten_dich_vu_di_kem VARCHAR(45)DEFAULT NULL,
 gia INT DEFAULT NULL,
 don_vi INT DEFAULT NULL,
@@ -99,7 +98,7 @@ trang_thai_kha_dung VARCHAR(45)DEFAULT NULL
 );
 
 CREATE TABLE hop_dong_chi_tiet(
-id_hop_dong_chi_tiet INT NOT NULL PRIMARY KEY,
+id_hop_dong_chi_tiet INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 id_hop_dong INT DEFAULT NULL,
 CONSTRAINT so_hop_dong FOREIGN KEY (id_hop_dong) REFERENCES hop_dong (id_hop_dong),
 id_dich_vu_di_kem INT DEFAULT NULL,

@@ -13,23 +13,23 @@ INSERT INTO bo_phan (ten_bo_phan)
 VALUES ('Sale_Marketing'),('Hanh-Chinh'),('Phuc_Vu'),('Quan_Ly');
 
 -- NHAN_VIEN
-INSERT INTO nhan_vien (id_nhan_vien,ho_ten, id_vi_tri, id_trinh_do, id_bo_phan, ngay_sinh, so_cmnd, luong, sdt, email, dia_chi)
+INSERT INTO nhan_vien (ho_ten, id_vi_tri, id_trinh_do, id_bo_phan, ngay_sinh, so_cmnd, luong, sdt, email, dia_chi)
 VALUES 
-(1,'Nguyen Van Bach', 1, 3, 2, '1991/03/04','987245824','7500000','0127482937','nguyenvanbach@gmail.com','Da Nang'),
-(2,'Nguyen Hoang Anh', 3, 3, 4, '1988/09/26','754825582','9000000','0895349357','nguyenhoanganh@gmail.com','Quang Binh'),
-(3,'Le Truc Diem', 2, 1, 3, '1999/01/28','445274527','5800000','0376728167','letrucdiem@gmail.com','Quang Tri');
--- ('Tran Quoc Minh', 5, 4, 4, '1993/02/01','972514304','14500000','0957182507','tranquocminh@gmail.com','Thua Thien Hue'),
--- ('Le Bao Binh', 4, 2, 4, '1989/06/19','673548264','9300000','0371835477','lebaobinh@gmail.com','Nghe An'),
--- ('Pham Minh Tuyet', 6, 4, 4, '1983/09/08','736492640','20500000','0384274999','phamminhtuyet@gmail.com','Da Nang'), -- giam doc
--- ('Phan Tuong Vy', 3, 3, 1, '1995/02/18','075374926','8800000','0906556182','phantuongvy@gmail.com','Quang Tri'),
--- ('Nguyen Ba Vinh', 2, 1, 3, '2000/05/27','012839475','5400000','0827364758','nguyenbavinh@gmail.com','Quang Ngai'),
--- ('Tran Quoc Thien', 5, 3, 3, '1990/01/18','6472916394','9500000','0975325753','tranquocthien@gmail.com','Ha Tinh'),
--- ('Le Minh Thu', 1, 2, 2, '1997/11/27','860973840','6800000','0238472839','leminhthu@gmail.com','Da Nang'),
--- ('Nguyen Hung Dung', 4, 4, 4, '1986/06/09','6274926402','11500000','0835472846','nguyenhungdung@gmail.com','Ha Noi'),
--- ('Le Thao Nguyen', 2, 1, 3, '1999/10/09','983629154','6500000','0136825624','lethaonguyen@gmail.com','Da Nang'),
--- ('Nguyen Minh Tien', 4, 3, 2, '1988/09/26','8745274926','98000000','0982872632,nguyenminhtien@gmail.com','Quang Binh'),
--- ('Le Thanh Hang', 5, 3, 4, '1985/01/20','735628846','14800000','0826467293','lethanhhang@gmail.com','Quang Tri'),
--- ('Tran Van Anh', 2, 2, 3, '1998/09/01','0986243642','6500000','0967424636','tranvananh@gmail.com','Thua Thien Hue');
+('Nguyen Van Bach', 1, 3, 2, '1991/03/04','987245824','7500000','0127482937','nguyenvanbach@gmail.com','Da Nang'),
+('Nguyen Hoang Anh', 3, 3, 4, '1988/09/26','754825582','9000000','0895349357','nguyenhoanganh@gmail.com','Quang Binh'),
+('Le Truc Diem', 2, 1, 3, '1999/01/28','445274527','5800000','0376728167','letrucdiem@gmail.com','Quang Tri'),
+('Tran Quoc Minh', 5, 4, 4, '1993/02/01','972514304','14500000','0957182507','tranquocminh@gmail.com','Thua Thien Hue'),
+('Le Bao Binh', 4, 2, 4, '1989/06/19','673548264','9300000','0371835477','lebaobinh@gmail.com','Nghe An'),
+('Pham Minh Tuyet', 6, 4, 4, '1983/09/08','736492640','20500000','0384274999','phamminhtuyet@gmail.com','Da Nang'), -- giam doc
+('Phan Tuong Vy', 3, 3, 1, '1995/02/18','075374926','8800000','0906556182','phantuongvy@gmail.com','Quang Tri'),
+('Nguyen Ba Vinh', 2, 1, 3, '2000/05/27','012839475','5400000','0827364758','nguyenbavinh@gmail.com','Quang Ngai'),
+('Tran Quoc Thien', 5, 3, 3, '1990/01/18','6472916394','9500000','0975325753','tranquocthien@gmail.com','Ha Tinh'),
+('Le Minh Thu', 1, 2, 2, '1997/11/27','860973840','6800000','0238472839','leminhthu@gmail.com','Da Nang'),
+('Nguyen Hung Dung', 4, 4, 4, '1986/06/09','6274926402','11500000','0835472846','nguyenhungdung@gmail.com','Ha Noi'),
+('Le Thao Nguyen', 2, 1, 3, '1999/10/09','983629154','6500000','0136825624','lethaonguyen@gmail.com','Da Nang'),
+('Nguyen Minh Tien', 4, 3, 2, '1988/09/26','8745274926','98000000','0982872632,nguyenminhtien@gmail.com','Quang Binh'),
+('Le Thanh Hang', 5, 3, 4, '1985/01/20','735628846','14800000','0826467293','lethanhhang@gmail.com','Quang Tri'),
+('Tran Van Anh', 2, 2, 3, '1998/09/01','0986243642','6500000','0967424636','tranvananh@gmail.com','Thua Thien Hue');
 
 -- LOAI KHACH
 INSERT INTO loai_khach (ten_loai_khach)
