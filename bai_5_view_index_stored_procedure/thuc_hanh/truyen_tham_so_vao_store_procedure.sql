@@ -30,3 +30,5 @@ call SetCounter(@counter,1);
 call SetCounter(@counter,1);
 call SetCounter(@counter,8);
 select @counter;
+
+-- drop procedure SetCounter;
