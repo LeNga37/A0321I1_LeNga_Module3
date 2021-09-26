@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5cdde42e-f59a-4a0e-a4b6-3a6b8238a63b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/dinh_dang_van_ban_voi_css/dinh_dang_van_ban_voi_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/dinh_dang_van_ban_voi_css/text_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/nhung_css_vao_html/external_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/nhung_css_vao_html/external_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/nhung_css_vao_html/inline_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/nhung_css_vao_html/internal_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/tao_trang_doc_truyen_ngan/doc_truyen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_6_css/bai_tap/tao_trang_doc_truyen_ngan/style_doc_truyen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/su_dung_box_model/box_model.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/su_dung_box_model/box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/tao_bo_cuc_co_ban/bo_cuc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/tao_bo_cuc_co_ban/tao_bo_cuc_co_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/tao_menu_doc/menu_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/tao_menu_doc/tao_menu_doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/tao_menu_ngang/menu_ngang_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang-web/thuc_hanh/tao_menu_ngang/tao_menu_ngang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama_database/insert_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Furama_database/insert_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama_database/yeu_cau_case_study.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Furama_database/yeu_cau_case_study.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yc9QsE1ylhHtujUVaVXn2dzO0q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A0321I1_LeNga_Module3\bai_6_css\bai_tap\dinh_dang_van_ban_voi_css" />
+      <recent name="D:\A0321I1_LeNga_Module3\bai_6_css\bai_tap\nhung_css_vao_html" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cdde42e-f59a-4a0e-a4b6-3a6b8238a63b" name="Default Changelist" comment="" />
+      <created>1632539995176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632539995176</updated>
+      <workItem from="1632539996618" duration="21629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

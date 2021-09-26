@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+.header{
+    background-color: lightblue;
+    font-size: 25pt;
+    text-align: center;
+    color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.image{
+    margin-left: 250px;
+    height: 300px;
+    background-image:url('https://images6.fanpop.com/image/photos/41500000/Beautiful-Anime-Banner-gdragon-sunny-cat-41532037-1500-500.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu{
+    line-height: 30px;
+}
