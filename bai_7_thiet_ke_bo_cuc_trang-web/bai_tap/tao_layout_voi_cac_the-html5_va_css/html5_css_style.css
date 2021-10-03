@@ -1,0 +1,133 @@
+/*body {*/
+/*    font-family: Verdana,sans-serif;*/
+/*    width: 900px;*/
+/*    margin-left: 207px;*/
+/*}*/
+/*header,*/
+/*footer{*/
+/*    padding: 10px;*/
+/*    color: #F5F5F5;*/
+/*    border: 1px solid blueviolet;*/
+/*}*/
+/*header{*/
+/*    height: 52px;*/
+/*    background: black;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*footer{*/
+/*    font-size: 10px;*/
+/*    height: 34px;*/
+/*    clear: both;*/
+/*    background-color: black;*/
+/*}*/
+/*.title{*/
+/*    background-color: black;*/
+/*}*/
+/*#nav ul{*/
+/*    margin: 0;*/
+/*    padding: 16px 0;*/
+/*}*/
+/*#nav ul li{*/
+/*    display: inline;*/
+/*    margin: 5px;*/
+/*}*/
+/*.container{*/
+/*    background-color: lavender;*/
+/*    min-height: 80vh;*/
+/*    padding: 0 15px;*/
+/*}*/
+
+/*.box-news{*/
+/*    width: 100%;*/
+/*    background-color: white;*/
+/*}*/
+
+/*.box-news .box-news-left{*/
+/*    float: left;*/
+/*    width: 60%;*/
+/*}*/
+/*.box-news .box-news-right{*/
+/*    float: right;*/
+/*    width: 30%;*/
+/*    border: 1px solid blueviolet;*/
+/*    padding: 10px;*/
+/*}*/
+/*#top, #bottom{*/
+/*    width: 100%;*/
+/*    border: 1px solid blueviolet;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+body {
+    font-family: Verdana,sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header,
+footer{
+    padding: 10px;
+    color: #F5F5F5;
+    border: 1px solid blueviolet;
+}
+header{
+    height: 52px;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+footer{
+    font-size: 10px;
+    height: 34px;
+    clear: both;
+    background-color: black;
+}
+.title{
+    background-color: black;
+}
+#nav ul{
+    margin: 0;
+    padding: 16px 0;
+}
+#nav ul li{
+    display: inline;
+    margin: 5px;
+}
+.container{
+    background-color: lavender;
+    min-height: 100vh;
+    padding: 0 15px;
+}
+
+.box-news{
+    width: 100%;
+    height: 450px;
+}
+
+.box-news .box-news-left{
+    float: left;
+    width: 65%;
+}
+.box-news .box-news-right{
+    float: right;
+    width: 30%;
+    border: 1px solid blueviolet;
+    height: 100%;
+    background-color: white;
+}
+.box-news .box-news-right .new-highlight{
+    padding: 10px;
+}
+.new-item{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.new-item:last-child{
+    margin-bottom: 0;
+}
+.new-item .title-txt{
+    text-decoration: none;
+}

@@ -101,7 +101,11 @@ select dvdk.*, count(hdct.id_dich_vu_di_kem) as so_lan_su_dung
 from dich_vu_di_kem dvdk
 inner join hop_dong_chi_tiet hdct on dvdk.id_dich_vu_di_kem = hdct.id_dich_vu_di_kem
 group by dvdk.id_dich_vu_di_kem
-order by so_lan_su_dung desc;
+having count(hdct.id_dich_vu_di_kem) >= all (select count(hdct.id_dich_vu_di_kem) as so_lan_su_dung
+from dich_vu_di_kem dvdk
+inner join hop_dong_chi_tiet hdct on dvdk.id_dich_vu_di_kem = hdct.id_dich_vu_di_kem
+group by dvdk.id_dich_vu_di_kem);
+-- order by so_lan_su_dung desc;
 
 -- Task 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất. Thông tin hiển thị bao gồm IDHopDong, TenLoaiDichVu, TenDichVuDiKem, SoLanSuDung.
 select hd.id_hop_dong, ldv.ten_loai_dich_vu, dvdk.ten_dich_vu_di_kem, count(hdct.id_dich_vu_di_kem) as so_lan_su_dung
@@ -120,8 +124,23 @@ inner join bo_phan bp on nv.id_bo_phan = bp.id_bo_phan
 inner join trinh_do td on td.id_trinh_do = nv.id_trinh_do
 inner join hop_dong hd on hd.id_nhan_vien = nv.id_nhan_vien
 group by hd.id_nhan_vien
-having so_lan_lap_hop_dong <=3 and (nam_lam_hop_dong between '2018' and '2020')
+having so_lan_lap_hop_dong <=3 and (nam_lam_hop_dong between '2018' and '2020');
 
--- Task 16.	Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2017 đến năm 2019.
+-- Task 16. Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2017 đến năm 2019.
+delete nhan_vien from nhan_vien
+where nhan_vien.id_nhan_vien not in (select id_nhan_vien from hop_dong where hop_dong.ngay_lam_hop_dong between '2017-01-01' and '2019-01-01');
+
+-- Task 17.	Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ  Platinium lên Diamond, chỉ cập nhật những khách hàng đã từng đặt phòng với tổng 
+-- Tiền thanh toán trong năm 2019 là lớn hơn 10.000.000 VNĐ.
+
+
+
+
+
+
+
+
+
+
 
 
