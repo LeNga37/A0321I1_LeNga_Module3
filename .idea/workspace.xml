@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cdde42e-f59a-4a0e-a4b6-3a6b8238a63b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/poly.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/tao_layout_trong_bootstrap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/gallery/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/bai_tap/gallery/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/landing page/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/bai_tap/landing page/landing_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/landing page/landing_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/bai_tap/landing page/landing_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/poly.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/poly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/tao_layout_trong_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/tao_layout_trong_bootstrap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632539995176</updated>
-      <workItem from="1632539996618" duration="127749000" />
+      <workItem from="1632539996618" duration="130720000" />
     </task>
     <servers />
   </component>
