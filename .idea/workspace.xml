@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cdde42e-f59a-4a0e-a4b6-3a6b8238a63b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/poly.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/poly.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/tao_layout_trong_bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/thuc_hanh/tao_layout_trong_bootstrap.html" afterDir="false" />
-    </list>
+    <list default="true" id="5cdde42e-f59a-4a0e-a4b6-3a6b8238a63b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,18 +64,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632539995176</updated>
-      <workItem from="1632539996618" duration="130720000" />
+      <workItem from="1632539996618" duration="130998000" />
     </task>
+    <task id="LOCAL-00001" summary="sua padding">
+      <created>1633273464974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633273464975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sua padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="sua padding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1230" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633248877131">
       <screen x="-1920" y="-113" width="1920" height="1040" />
     </state>
     <state x="-1230" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.-113.1920.1040@-1920.-113.1920.1040" timestamp="1633248877131" />
+    <state x="-1404" y="-2" key="CommitChangelistDialog2" timestamp="1633273464348">
+      <screen x="-1920" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="-1404" y="-2" key="CommitChangelistDialog2/0.0.1366.728/-1920.-113.1920.1040@-1920.-113.1920.1040" timestamp="1633273464348" />
     <state x="-1181" y="150" key="FileChooserDialogImpl" timestamp="1633093624342">
       <screen x="-1920" y="-113" width="1920" height="1040" />
     </state>
