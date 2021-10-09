@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cdde42e-f59a-4a0e-a4b6-3a6b8238a63b" name="Default Changelist" comment="" />
+    <list default="true" id="5cdde42e-f59a-4a0e-a4b6-3a6b8238a63b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/build/libs/chuyen_doi_tien_te_sevlet-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/chuyen_doi_tien_te_sevlet/src/main/java/Controller/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/dang_nhap_hien_thi_loi_chao/src/main/java/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_9_tong_quan_ung_dung_web/thuc_hanh/hien_thi_thoi_gian_cua_he_thong/src/main/java/controller/ServerTimeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama_database/yeu_cau_case_study.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Furama_database/yeu_cau_case_study.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/bai_tap/landing page/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_8_bootstrap_co_ban/bai_tap/landing page/landing_page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632539995176</updated>
-      <workItem from="1632539996618" duration="130998000" />
+      <workItem from="1632539996618" duration="132182000" />
+      <workItem from="1633349797931" duration="4339000" />
     </task>
     <task id="LOCAL-00001" summary="sua padding">
       <created>1633273464974</created>
