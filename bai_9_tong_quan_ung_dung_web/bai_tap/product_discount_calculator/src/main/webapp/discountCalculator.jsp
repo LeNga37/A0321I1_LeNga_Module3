@@ -15,7 +15,7 @@
   <form method="post" action="/display-discount">
     <input type="text" name="description" placeholder="Product Description: "/>
     <input type="number" name="price" placeholder="List Price: "/>
-    <input type="number" name="percent " placeholder="Discount Percent: "/>
+    <input type="number" name="percent" placeholder="Discount Percent: "/>
     <input type="submit" id = "submit" value="discount-price"/>
   </form>
   </body>
