@@ -15,14 +15,14 @@
 </head>
 <body>
 <div class="container">
-    <a href="/product?action=search" class="btn btn-warning">Search By Name</a>
-<%--    <form>--%>
-<%--        <div class="mb-3">--%>
-<%--            <label for="inputName" class="form-label">Input product name</label>--%>
-<%--            <input type="text" class="form-control" id="inputName" name="name">--%>
-<%--        </div>--%>
-<%--    </form>--%>
-<%--    <a href="/product?action=search" >Search</a>--%>
+<%--    <a href="/product?action=search" class="btn btn-warning">Search By Name</a>--%>
+    <form action="/product" method="get">
+        <div class="mb-3" style="margin-top: 30px">
+            <input type="hidden" name="action" value="search">
+            <input type="text" class="form-control" placeholder="Enter name" id="inputName" name="searchName">
+            <button type="submit" class="btn btn-primary">Search By Name</button>
+        </div>
+    </form>
 <table id="product" class="table table-striped">
     <thead>
     <tr>
