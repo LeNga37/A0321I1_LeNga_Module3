@@ -1,14 +1,16 @@
 package entity;
 
+import java.util.Date;
+
 public class Student {
     private Integer id;
     private String name;
-    private String dateOfBirth;
+    private Date dateOfBirth;
     //    1: Male, 0: Female
     private Integer gender;
     private Double grade;
 
-    public Student(Integer id, String name, String dateOfBirth, Integer gender, Double grade) {
+    public Student(Integer id, String name, Date dateOfBirth, Integer gender, Double grade) {
         this.id = id;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -32,11 +34,11 @@ public class Student {
         this.name = name;
     }
 
-    public String getDateOfBirth() {
+    public Date getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
+    public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 

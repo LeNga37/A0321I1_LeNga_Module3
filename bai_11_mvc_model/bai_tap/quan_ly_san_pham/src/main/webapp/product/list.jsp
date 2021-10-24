@@ -15,6 +15,14 @@
 </head>
 <body>
 <div class="container">
+    <a href="/product?action=search" class="btn btn-warning">Search By Name</a>
+<%--    <form>--%>
+<%--        <div class="mb-3">--%>
+<%--            <label for="inputName" class="form-label">Input product name</label>--%>
+<%--            <input type="text" class="form-control" id="inputName" name="name">--%>
+<%--        </div>--%>
+<%--    </form>--%>
+<%--    <a href="/product?action=search" >Search</a>--%>
 <table id="product" class="table table-striped">
     <thead>
     <tr>

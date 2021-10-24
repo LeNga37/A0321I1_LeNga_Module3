@@ -23,7 +23,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public void updateStudent(Integer id, String name, String dateOfBirth) {
+    public void updateStudent(Integer id, String name, String dateOfBirth,Integer gender, Double grade) {
         if(name.equals("")){
             System.out.println("Tên không được để trống");
             return;
@@ -36,6 +36,6 @@ public class StudentServiceImpl implements StudentService {
             System.out.println("Id không tồn tại trong database");
             return;
         }
-        this.studentRepository.updateStudent(id, name, dateOfBirth);
+        this.studentRepository.updateStudent(id, name, dateOfBirth, gender, grade);
     }
 }

@@ -38,4 +38,9 @@ public class ProductServiceImpl implements ProductService {
     public Product view(int id) {
         return productRepository.view(id);
     }
+
+    @Override
+    public List<Product> searchByName(String name) {
+        return productRepository.searchByName(name);
+    }
 }

@@ -16,6 +16,10 @@
     <input type="text" name="name" value="${student.name}">
     <p>Date Of Birth:</p>
     <input type="text" name="dateOfBirth" value="${student.dateOfBirth}">
+    <p>Gender:</p>
+    <input type="text" name="gender" value="${student.gender}">
+    <p>Grade:</p>
+    <input type="text" name="grade" value="${student.grade}">
     <input type="submit" value="Update">
 </form>
 </body>

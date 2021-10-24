@@ -12,7 +12,11 @@ public interface ProductService {
     Product findById(int id);
 
     void update(int id, Product product);
+
     void delete(int id);
+
     Product view(int id);
+
+    List<Product> searchByName(String name);
 
 }

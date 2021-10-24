@@ -11,4 +11,5 @@ public interface ProductRepository {
     Product findById(int id);
     void delete(int id);
     Product view(int id);
+    List<Product> searchByName(String name);
 }

@@ -2,137 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f6ce59-53f4-44b4-866d-1fe16d483c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/bean/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/controller/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/bootstrap413/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/editor.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/bubble.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/datatable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/datetime.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/envelope.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/fields.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/inline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/lightbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/processing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/css/scss/upload.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.editor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/editor.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/datatables/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/assert/jquery/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/controller/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/repository/impl/StudentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/src/main/webapp/update_student.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/repository/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_12_jsbc_crud/demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/repository/impl/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/repository/impl/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/classes/java/main/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/libs/quan_ly_san_pham-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/build/libs/quan_ly_san_pham-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/repository/impl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/java/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/build/classes/java/main/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/build/classes/java/main/controller/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/build/classes/java/main/repository/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/build/classes/java/main/repository/StudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/build/classes/java/main/repository/impl/StudentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/build/classes/java/main/repository/impl/StudentRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/build/classes/java/main/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/build/classes/java/main/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/build/classes/java/main/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/build/classes/java/main/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/build/libs/demo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/build/libs/demo-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/controller/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/repository/impl/StudentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/repository/impl/StudentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/quan_ly_san_pham/src/main/webapp/product/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/webapp/update_student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/webapp/update_student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +185,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634048366946</updated>
-      <workItem from="1634048371360" duration="29731000" />
+      <workItem from="1634048371360" duration="30040000" />
+      <workItem from="1634553542849" duration="2846000" />
     </task>
     <servers />
   </component>
@@ -285,10 +203,11 @@
     </state>
     <state x="-998" y="327" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.-113.1920.1040@-1920.-113.1920.1040" timestamp="1634312246765" />
     <state x="656" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.-113.1920.1040@0.0.1366.728" timestamp="1634124495288" />
-    <state x="-1309" y="231" key="FileChooserDialogImpl" timestamp="1634130584674">
-      <screen x="-1920" y="-113" width="1920" height="1040" />
+    <state x="435" y="238" key="FileChooserDialogImpl" timestamp="1634570531142">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1309" y="231" key="FileChooserDialogImpl/0.0.1366.728/-1920.-113.1920.1040@-1920.-113.1920.1040" timestamp="1634130584674" />
+    <state x="435" y="238" key="FileChooserDialogImpl/0.0.1366.728/-1920.-113.1920.1040@0.0.1366.728" timestamp="1634570531142" />
     <state width="1293" height="34" key="GridCell.Tab.0.bottom" timestamp="1634312306432">
       <screen x="-1920" y="-113" width="1920" height="1040" />
     </state>

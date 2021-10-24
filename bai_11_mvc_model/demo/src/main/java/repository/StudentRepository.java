@@ -9,5 +9,5 @@ public interface StudentRepository {
 
     Student findById(Integer id);
 
-    void updateStudent(Integer id, String name, String dateOfBirth);
+    void updateStudent(Integer id, String name, String dateOfBirth, Integer gender, Double grade);
 }

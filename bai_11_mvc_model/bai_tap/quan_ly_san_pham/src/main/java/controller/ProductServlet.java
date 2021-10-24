@@ -30,7 +30,14 @@ public class ProductServlet extends HttpServlet {
             case "delete":
                 deleteProduct(request,response);
                 break;
+            case "search":
+                searchProductByName(request,response);
+                break;
         }
+    }
+
+    private void searchProductByName(HttpServletRequest request, HttpServletResponse response) {
+        String name = request.getParameter("nameSearch");
     }
 
     private void deleteProduct(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -83,10 +90,22 @@ public class ProductServlet extends HttpServlet {
                 break;
             case "detail":
                 showFormDetailProduct(request,response);
+                break;
+            case "search":
+                showResultSearchByName(request,response);
+                break;
             default:
                 showListProduct(request,response);
                 break;
         }
+    }
+
+    private void showResultSearchByName(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        String name = request.getParameter("nameSearch");
+//        Product product = (Product) this.productService.searchByName(name);
+//        request.setAttribute("product",product);
+        request.getRequestDispatcher("/product/search.jsp").forward(request,response);
+
     }
 
     private void showFormDetailProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

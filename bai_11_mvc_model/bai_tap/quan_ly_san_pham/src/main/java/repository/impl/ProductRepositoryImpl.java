@@ -49,4 +49,22 @@ public class ProductRepositoryImpl implements ProductRepository {
         return productMap.get(id);
     }
 
+    @Override
+    public List<Product> searchByName(String name) {
+        List<Product> search = new ArrayList<>(productMap.values());
+        for(Product product: search){
+            if(product.getProductName().equals(name)){
+                product.getProductId();
+                product.getProductName();
+                product.getPrice();
+                product.getDescription();
+                product.getMaker();
+            }else {
+                return null;
+            }
+        }
+        return search;
+    }
+
+
 }
