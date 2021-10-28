@@ -41,7 +41,6 @@ begin
     from users where users.id = id;
     end//
 delimiter ;
-call get_user_by_id(1);
 
 delimiter //
 create procedure insert_user (
@@ -51,8 +50,39 @@ country varchar(120)
 )
 begin
 	insert into users(name, email, country) values(name, email, country);
-    end//
+end//
 delimiter ;
-call insert_user();
+
+delimiter //
+create procedure find_all_user ()
+begin
+	select * from users;
+end//
+delimiter ;
 
 
+delimiter //
+create procedure update_user (
+in id int, 
+in new_name varchar(120), 
+in new_email varchar(220), 
+in new_country varchar(120)
+)
+begin
+	update users
+    set users.name = new_name,
+    users.email = new_email,
+    users.country = new_country
+    where users.id = id;
+end//
+delimiter ;
+-- call update_user();
+
+delimiter //
+create procedure delete_user(in id int)
+begin 
+	delete users
+    from users
+    where users.id = id;
+end //
+delimiter ;

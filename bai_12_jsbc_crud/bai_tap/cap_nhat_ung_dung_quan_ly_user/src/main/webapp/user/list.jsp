@@ -69,9 +69,9 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary"><a
-                                            href="/user?action=delete&id=${user.id}" style="color: white">Delete</a>
+                                    <button type="button" class="btn btn-primary">Delete
                                     </button>
+<%--                                    <a href="/user?action=delete&id=${user.id}" style="color: white">Delete</a>--%>
                                 </div>
                             </div>
                         </div>
@@ -91,14 +91,14 @@
 <script src="/assert/datatables/js/dataTables.bootstrap4.min.js"></script>
 <script src="/assert/bootstrap413/js/bootstrap.min.js"></script>
 <script src="/assert/bootstrap413/js/bootstrap.bundle.js"></script>
-<%--<script>--%>
-<%--    $(document).ready(function () {--%>
-<%--        $('#user').dataTable({--%>
-<%--            "dom": 'lrtip',--%>
-<%--            "lengthChange": false,--%>
-<%--            "pageLength": 10--%>
-<%--        })--%>
-<%--    })--%>
-<%--</script>--%>
+<script>
+    $(document).ready(function () {
+        $('#user').dataTable({
+            "dom": 'lrtip',
+            "lengthChange": false,
+            "pageLength": 10
+        })
+    })
+</script>
 </body>
 </html>

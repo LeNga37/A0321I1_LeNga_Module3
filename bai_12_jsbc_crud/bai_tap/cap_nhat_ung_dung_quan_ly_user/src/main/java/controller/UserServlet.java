@@ -28,6 +28,22 @@ public class UserServlet extends HttpServlet {
             case "edit":
                 updateUser(request, response);
                 break;
+            case"delete":
+                deleteUser(request,response);
+                break;
+        }
+    }
+
+    private void deleteUser(HttpServletRequest request, HttpServletResponse response) {
+        int id = Integer.parseInt(request.getParameter("id"));
+//        userService.selectUser(id);
+//        User user = userService.selectUser(id);
+//        request.setAttribute("user",user);
+        userService.delete(id);
+        try {
+            response.sendRedirect("/user");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -78,9 +94,9 @@ public class UserServlet extends HttpServlet {
             case "edit":
                 showFromUpdateUser(request, response);
                 break;
-            case "delete":
-                deleteUser(request, response);
-                break;
+//            case "delete":
+//                deleteUser(request, response);
+//                break;
             case "search":
                 searchByCountry(request, response);
                 break;
@@ -113,18 +129,19 @@ public class UserServlet extends HttpServlet {
             e.printStackTrace();
         }
     }
-
-    private void deleteUser(HttpServletRequest request, HttpServletResponse response) {
-        int id = Integer.parseInt(request.getParameter("id"));
-        User user = userService.selectUser(id);
-        request.setAttribute("user",user);
-        this.userService.delete(id);
-        try {
-            response.sendRedirect("/user");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+//
+//    private void deleteUser(HttpServletRequest request, HttpServletResponse response) {
+//        int id = Integer.parseInt(request.getParameter("id"));
+//        System.out.println(id);
+////        User user = userService.selectUser(id);
+////        request.setAttribute("user",user);
+//        this.userService.delete(id);
+//        try {
+//            response.sendRedirect("/user");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     private void showFromUpdateUser(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));

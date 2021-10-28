@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="/assert/datatables/css/dataTables.bootstrap4.min.css">
 </head>
 <body>
-<div class="container">
-    <form method="post">
+<form method="post">
+    <div class="container">
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" class="form-control" id="name" name="name" value="${user.name}">
@@ -30,8 +30,8 @@
         </div>
         <button type="submit" class="btn btn-primary">Update</button>
         <a href="/user" class="btn btn-primary">Back to list</a>
-    </form>
-</div>
+    </div>
+</form>
 <script src="/assert/jquery/jquery-3.5.1.min.js"></script>
 <script src="/assert/bootstrap413/js/popper.min.js"></script>
 <script src="/assert/bootstrap413/js/bootstrap.min.js"></script>

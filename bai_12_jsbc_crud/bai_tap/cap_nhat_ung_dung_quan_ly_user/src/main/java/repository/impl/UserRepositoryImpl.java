@@ -15,7 +15,7 @@ public class UserRepositoryImpl implements UserRepository {
     private static final String SELECT_ALL_USER = "SELECT * FROM users.users";
     private static final String INSERT_USER = "INSERT INTO `users`.`users` (`name`, " +
             "`email`, `country`) VALUES (?, ?, ?);";
-    private static final String SELECT_USER_BY_ID = "SELECT * FROM user WHERE id=?";
+    private static final String SELECT_USER_BY_ID = "SELECT * FROM users WHERE id=?";
     private static final String UPDATE_USER_BY_ID = "UPDATE users set name = ?,email= ?, country =? WHERE id = ?;";
     private static final String DELETE_USERS = "DELETE FROM users WHERE id = ?;";
     private static final String SEARCH_USERS_BY_COUNTRY = "SELECT * FROM users WHERE country = ?;";
@@ -79,6 +79,7 @@ public class UserRepositoryImpl implements UserRepository {
         Connection connection = DBConnection.getConnection();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_ID);
+            preparedStatement.setInt(1,id);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 user = new User();
