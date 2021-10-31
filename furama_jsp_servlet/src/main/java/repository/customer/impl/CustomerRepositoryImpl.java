@@ -25,8 +25,6 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     private static final String SEARCH_USERS_BY_NAME = "SELECT * FROM furama_resort_1.customer WHERE customer_name like ?;";
 
 
-
-
     @Override
     public List<Customer> findAll() {
         List<Customer> customerList = new ArrayList<>();
@@ -171,12 +169,12 @@ public class CustomerRepositoryImpl implements CustomerRepository {
         List<Customer> customers = new ArrayList<>();
         Connection connection = DBConnection.getConnection();
         try {
-            PreparedStatement preparedStatement=connection.prepareStatement(SEARCH_USERS_BY_NAME);
-            preparedStatement.setString(1,"%"+customerName+"%");
+            PreparedStatement preparedStatement = connection.prepareStatement(SEARCH_USERS_BY_NAME);
+            preparedStatement.setString(1, "%" + customerName + "%");
             ResultSet resultSet = preparedStatement.executeQuery();
             Customer customer;
-            while (resultSet.next()){
-                customer=new Customer();
+            while (resultSet.next()) {
+                customer = new Customer();
                 customer.setCustomerId((resultSet.getInt("customer_id")));
                 customer.setCustomerName(resultSet.getString("customer_name"));
                 customer.setCustomerBirthday(resultSet.getString("customer_birthday"));
@@ -190,7 +188,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
             }
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-        }finally {
+        } finally {
             try {
                 connection.close();
             } catch (SQLException throwables) {

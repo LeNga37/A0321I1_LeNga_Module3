@@ -16,7 +16,7 @@ import java.util.List;
 public class CustomerServlet extends HttpServlet {
     CustomerService customerService = new CustomerServiceImpl();
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
         String action = request.getParameter("action");
 
         switch (action) {
@@ -36,7 +36,7 @@ public class CustomerServlet extends HttpServlet {
     }
 
     private void searchCustomerByName(HttpServletRequest request, HttpServletResponse response) {
-        String customerName = request.getParameter("customerName");
+        String customerName = request.getParameter("searchName");
         List<Customer> customerList = customerService.searchCustomerByName(customerName);
         request.setAttribute("customerList",customerList);
         try {
@@ -48,7 +48,6 @@ public class CustomerServlet extends HttpServlet {
 
     private void deleteCustomer(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("customerId"));
-        System.out.println(id);
         customerService.deleteCustomer(id);
         try {
             response.sendRedirect("/furama/customer");
@@ -105,7 +104,7 @@ public class CustomerServlet extends HttpServlet {
         }
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         String action = request.getParameter("action");
         if (action == null) {
             action = "";

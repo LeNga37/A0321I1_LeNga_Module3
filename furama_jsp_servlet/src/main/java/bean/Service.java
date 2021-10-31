@@ -6,23 +6,36 @@ public class Service {
     private int serviceArea;
     private double serviceCost;
     private int serviceMaxPeople;
-    private int rentType;
-    private int serviceType;
+    private int rentTypeId;
+    private int serviceTypeId;
     private String standardRoom;
     private String descriptionConvenience;
     private double poolArea;
     private int numberFloor;
 
     public Service(int serviceId, String serviceName, int serviceArea, double serviceCost, int serviceMaxPeople,
-                   int rentType, int serviceType, String standardRoom, String descriptionConvenience, double poolArea,
+                   int rentTypeId, int serviceTypeId, String standardRoom, String descriptionConvenience, double poolArea,
                    int numberFloor) {
         this.serviceId = serviceId;
         this.serviceName = serviceName;
         this.serviceArea = serviceArea;
         this.serviceCost = serviceCost;
         this.serviceMaxPeople = serviceMaxPeople;
-        this.rentType = rentType;
-        this.serviceType = serviceType;
+        this.rentTypeId = rentTypeId;
+        this.serviceTypeId = serviceTypeId;
+        this.standardRoom = standardRoom;
+        this.descriptionConvenience = descriptionConvenience;
+        this.poolArea = poolArea;
+        this.numberFloor = numberFloor;
+    }
+
+    public Service(String serviceName, int serviceArea, double serviceCost, int serviceMaxPeople, int serviceTypeId, int rentTypeId, String standardRoom, String descriptionConvenience, double poolArea, int numberFloor) {
+        this.serviceName = serviceName;
+        this.serviceArea = serviceArea;
+        this.serviceCost = serviceCost;
+        this.serviceMaxPeople = serviceMaxPeople;
+        this.rentTypeId = rentTypeId;
+        this.serviceTypeId = serviceTypeId;
         this.standardRoom = standardRoom;
         this.descriptionConvenience = descriptionConvenience;
         this.poolArea = poolArea;
@@ -69,20 +82,20 @@ public class Service {
         this.serviceMaxPeople = serviceMaxPeople;
     }
 
-    public int getRentType() {
-        return rentType;
+    public int getRentTypeId() {
+        return rentTypeId;
     }
 
-    public void setRentType(int rentType) {
-        this.rentType = rentType;
+    public void setRentTypeId(int rentTypeId) {
+        this.rentTypeId = rentTypeId;
     }
 
-    public int getServiceType() {
-        return serviceType;
+    public int getServiceTypeId() {
+        return serviceTypeId;
     }
 
-    public void setServiceType(int serviceType) {
-        this.serviceType = serviceType;
+    public void setServiceTypeId(int serviceTypeId) {
+        this.serviceTypeId = serviceTypeId;
     }
 
     public String getStandardRoom() {

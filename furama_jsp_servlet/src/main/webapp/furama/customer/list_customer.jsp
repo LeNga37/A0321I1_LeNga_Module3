@@ -22,12 +22,12 @@
         </div>
         <button type="submit" class="btn btn-primary">Search By Name</button>
     </form>
-    <form action="furama/customer" method="get">
-        <div class="form-group">
-            <input type="hidden" name="action" value="sort">
-        </div>
-        <button type="submit" class="btn btn-primary">Sort By Name</button>
-    </form>
+<%--    <form action="furama/customer" method="get">--%>
+<%--        <div class="form-group">--%>
+<%--            <input type="hidden" name="action" value="sort">--%>
+<%--        </div>--%>
+<%--        <button type="submit" class="btn btn-primary">Sort By Name</button>--%>
+<%--    </form>--%>
     <table id="customer" class="table table-striped">
         <thead>
         <tr>
@@ -40,6 +40,9 @@
             <th scope="col">customer_email</th>
             <th scope="col">customer_type_id</th>
             <th scope="col">customer_address</th>
+            <th scope="col">action</th>
+            <th scope="col">action</th>
+
         </tr>
         </thead>
         <tbody>
@@ -83,7 +86,7 @@
                 <td>
                     <button type="button" class="btn btn-danger" onclick="setValueForm('${customer.customerId}')" data-toggle="modal" data-target="#modalDelete">
                         Xóa
-                    </button><span>${customer.customerId}</span>
+                    </button>
                 </td>
             </tr>
         </c:forEach>
