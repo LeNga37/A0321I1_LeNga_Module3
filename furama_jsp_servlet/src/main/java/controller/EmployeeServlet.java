@@ -61,7 +61,6 @@ public class EmployeeServlet extends HttpServlet {
     }
 
     private void editEmployee(HttpServletRequest request, HttpServletResponse response) {
-        System.out.println(5);
         int employeeId = Integer.parseInt(request.getParameter("employeeId"));
         String employeeName = request.getParameter("employeeName");
         String employeeBirthDay = request.getParameter("employeeBirthDay");

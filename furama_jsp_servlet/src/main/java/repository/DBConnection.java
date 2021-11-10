@@ -9,6 +9,7 @@ public class DBConnection {
     private static final String PASSWORD = "12345678";
     private static final String HOST = "localhost";
     private static final String DATABASE = "furama_resort_1";
+//    private static final String DATABASE = "furama_resort_1?useSSL=false";
     private static final String PORT = "3306";
 
     private static Connection connection;
